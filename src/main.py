@@ -16,3 +16,4 @@ response = openai.ChatCompletion.create(
 
 response_message = response["choices"][0]["message"]
 print(response_message)
+ 
